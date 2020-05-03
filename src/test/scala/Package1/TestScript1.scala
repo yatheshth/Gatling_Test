@@ -19,7 +19,7 @@ class TestScript1 extends Simulation {
 
 
   val scn = scenario("Baseline1")
-    .exec(http("request_0")
+    .exec(http("request_12")
       .get("/computers")
       .headers(headers_0)
       .resources(http("request_1")
